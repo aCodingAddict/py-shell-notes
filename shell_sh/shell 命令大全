@@ -1,0 +1,8 @@
+uptime      系统运行时间
+vmstat      虚拟内存
+pidstat     显示进程
+free        内存
+top         cpu
+sar -n DEV n秒       网络设备吞吐
+sar -n TCP,ETCP n秒  TCP连接状态和数量
+iostat      磁盘io
