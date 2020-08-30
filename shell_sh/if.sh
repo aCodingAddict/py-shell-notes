@@ -1,16 +1,19 @@
 #!/usr/bin/env bash
 
 <<'comment'
-shell 的 if 是 0 为真,不支持直接用0 或其他整数变量直接 if,但支持字符串变量直接 if
+shell 的 if 是 0 为真,不支持直接用 0 或其他整数变量直接 if,但支持字符串变量直接 if.
+
 1.
 if [[ expression ]];then
     command
 else
     command
 fi
+
 2.
 [ expression ] && command
-&&可以理解为 then,如果左边的表达式为真则执行右边的语句
+&& 可以理解为 then,如果左边的表达式为真则执行右边的语句.
+
 3.
 test 可以替换 [[ ]]
 test expression && command
